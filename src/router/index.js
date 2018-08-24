@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Blog from '../components'
+import Blog from '../components/Blog'
+import About from '../components/About'
 
 Vue.use(Router)
 
@@ -8,7 +9,7 @@ export default new Router({
   mode: 'history',
   linkActiveClass: 'active',
   routes: [{
-    path: '/',
+    path: '/blog',
     name: 'feed',
     component: Blog
   }, {
@@ -21,5 +22,10 @@ export default new Router({
     name: 'post',
     props: true,
     component: Blog
+  }, {
+    path: '/',
+    name: 'about',
+    props: true,
+    component: About
   }]
 })
