@@ -1,3 +1,6 @@
 export { default as Blog } from './Blog'
 export { default as BlogFeed } from './BlogFeed'
 export { default as BlogPost } from './BlogPost'
+export { default as Project } from './Project'
+export { default as Projects } from './Projects'
+export { default as ProjectsFeed } from './ProjectsFeed'

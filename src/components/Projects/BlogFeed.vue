@@ -5,7 +5,7 @@
         <transition name="v--fade">
           <figcaption v-if="!reading || $device.phone" class="preview__details">
             <router-link class="preview__title"
-              :to="`/read/${post.id}`"
+              :to="`/project/${post.id}`"
               @click.native="scrollTo(0, 220, scrollDelay)">
               {{ post.title }}
             </router-link>
@@ -16,7 +16,7 @@
               </time>
 
               <router-link class="preview__author"
-                :to="`/by/${kebabify(post.author)}`"
+                :to="`/tech/${kebabify(post.author)}`"
                 @click.native="scrollTo(0, 220, scrollDelay)">
                 {{ post.author }}
               </router-link>
@@ -29,11 +29,11 @@
 </template>
 
 <script>
-import { scrollTo, kebabify, prettyDate } from '../helpers'
+import { scrollTo, kebabify, prettyDate } from '../../helpers'
 
 export default {
   name: 'blog-feed',
-  resource: 'BlogFeed',
+  resource: 'ProjectsFeed',
 
   props: {
     filters: {

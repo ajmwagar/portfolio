@@ -8,10 +8,10 @@
 </template>
 
 <script>
-import BlogNav from './BlogNav'
+import BlogNav from '../Nav'
 import BlogFeed from './BlogFeed'
 import BlogPost from './BlogPost'
-import BlogFooter from './BlogFooter'
+import BlogFooter from '../Footer'
 
 export default {
   name: 'blog',

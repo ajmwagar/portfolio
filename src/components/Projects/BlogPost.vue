@@ -25,12 +25,12 @@
 
 <script>
 import VueDisqus from 'vue-disqus/VueDisqus'
-import { kebabify, prettyDate } from '../helpers'
+import { kebabify, prettyDate } from '../../helpers'
 import marked from 'marked'
 
 export default {
   name: 'blog-post',
-  resource: 'BlogPost',
+  resource: 'Project',
   components: { VueDisqus, },
   props: { post: String },
 
