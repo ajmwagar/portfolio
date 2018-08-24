@@ -13,7 +13,7 @@
         <blockquote class="post__subtitle">{{ description }}</blockquote>
       </header>
 
-      <section class="post__body rte" v-html="content"></section>
+      <section class="post__body rte" v-html="previewText"></section>
 
       <footer class="post__footer">
         <vue-disqus v-if="commentsReady" shortname="vue-blog-demo"
@@ -26,11 +26,12 @@
 <script>
 import VueDisqus from 'vue-disqus/VueDisqus'
 import { kebabify, prettyDate } from '../helpers'
+import marked from 'marked'
 
 export default {
   name: 'blog-post',
   resource: 'BlogPost',
-  components: { VueDisqus },
+  components: { VueDisqus, },
   props: { post: String },
 
   data() {
@@ -48,7 +49,20 @@ export default {
   computed: {
     allReady() {
       return this.ready && this.post;
-    }
+    },
+ previewText() {
+  marked.setOptions({
+    renderer: new marked.Renderer(),
+    gfm: true,
+    tables: true,
+    breaks: true,
+    pedantic: false,
+    sanitize: true,
+    smartLists: true,
+    smartypants: false
+  });
+  return marked(this.content)
+ }
   },
 
   watch: {
