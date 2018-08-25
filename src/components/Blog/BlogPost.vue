@@ -116,15 +116,15 @@ p {
   padding-bottom: 4vh;
 }
 
-h1 {
+section h1 {
   font-weight: bold;
   font-size: 2vw;
 }
-h2 {
+section h2 {
   font-weight: bold;
   font-size: 1.75vw;
 }
-h3 {
+section h3 {
   font-weight: bold;
   font-size: 1.5vw;
 }

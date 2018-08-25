@@ -4,7 +4,7 @@
     <a href="/blog">Blog</a>
     <a href="/work">Work</a>
   </div>
-  <div class="title">
+  <div class="title" >
     <h1>Avery<br>Wagar</h1>
   </div>
   <div class="subteext">
@@ -31,9 +31,17 @@ export default {
   name: 'About',
   data () {
     return {
-      msg: 'VR developer since 2016. Experience in Unity, C#, Java, JavaScript, Python, Rust.'
+      msg: 'VR developer since 2016. Experience in Unity, C#, Java, JavaScript, Python, Rust.',
+      show:true 
     }
+  },
+  methods: {
+    load(){
+
+    }
+
   }
+
 }
 </script>
 
@@ -71,16 +79,28 @@ h1 {
   word-wrap: break-word;
   max-width: 30ww;
   width: 30vw;
+
+  -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 1.5s; /* Firefox < 16 */
+    -ms-animation: fadein 1.5s; /* Internet Explorer */
+     -o-animation: fadein 1.5s; /* Opera < 12.1 */
+          animation: fadein 1.5s; 
 }
 .about {
   flex: 1;
   margin-left: 10vw;
   font-size: 10vh;
 
-}
-.title {
-  margin-top: 22vh;
+  }
+  .title {
+    margin-top: 22vh;
   margin-bottom: 5vh;
+
+      -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1.5s; /* Firefox < 16 */
+        -ms-animation: fadein 1.5s; /* Internet Explorer */
+         -o-animation: fadein 1.5s; /* Opera < 12.1 */
+            animation: fadein 1.5s; 
 }
 
 h1, h2 {
@@ -97,4 +117,51 @@ li {
 a {
   color: #42b983;
 }
+.v-fade {
+  display: inherit !important; /* override v-show display: none */
+  transition: opacity 0.5s;
+}
+
+.v-fade[style*="display: none;"] {
+  opacity: 0;
+  pointer-events: none; /* disable user interaction */
+  user-select: none; /* disable user selection */
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+  }
 </style>
