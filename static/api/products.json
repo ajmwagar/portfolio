@@ -3,23 +3,107 @@
     {
     "title": "Outrigger",
     "id": "outrigger",
-    "image": "https://outriggerapp.com/img/IMG_1845_iphonesespacegrey_portrait.png",
+    "image": "/static/api/images/outrigger.png",
     "author": "Avery Wagar",
     "published": "2017-07-28T18:31:01Z"
     },
     {
-    "title": "Test",
-    "id": "test",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/SIPI_Jelly_Beans_4.1.07.tiff/lossy-page1-220px-SIPI_Jelly_Beans_4.1.07.tiff.jpg",
+    "title": "Missile Mania",
+    "id": "missilemania",
+    "image": "/static/api/images/missilemania.jpg",
     "author": "Avery Wagar",
     "published": "2017-05-14T18:17:00Z"
     },
     {
-    "title": "AstroVR",
-    "id": "astrovr",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/SIPI_Jelly_Beans_4.1.07.tiff/lossy-page1-220px-SIPI_Jelly_Beans_4.1.07.tiff.jpg",
+    "title": "Giant Octopus VR",
+    "id": "giantoctopus",
+    "image": "https://pbs.twimg.com/media/DJ4b29TU8AApMrb.jpg",
     "author": "Avery Wagar",
     "published": "2017-05-14T18:17:00Z"
+    },
+    {
+    "title": "Mod Bot/Phoenix",
+    "id": "modbot",
+    "image": "https://cdn.discordapp.com/attachments/409929301765390336/482776727869980672/phoenixlogo.png",
+    "author": "Avery Wagar",
+    "published": "2018-08-1T18:17:00Z"
+    },
+    {
+    "title": "AstroVR",
+    "id": "astrovr",
+    "image": "/static/api/images/Cover.PNG",
+    "author": "Avery Wagar",
+    "published": "2017-06-22T18:17:00Z"
+    },
+    {
+    "title": "FaceValue",
+    "id": "facevalue",
+    "image": "/static/api/images/facevalue.png",
+    "author": "Avery Wagar",
+    "published": "2017-02-14T18:17:00Z"
+    },
+    {
+    "title": "NewStance VR",
+    "id": "newstance",
+    "image": "/static/api/images/newstance.png",
+    "author": "Avery Wagar",
+    "published": "2016-02-14T18:17:00Z"
+    }, 
+    {
+    "title": "vim-deus",
+    "id": "deus",
+    "image": "https://raw.githubusercontent.com/ajmwagar/vim-deus/master/screencaps/duesLinux.jpeg",
+    "author": "Avery Wagar",
+    "published": "2017-06-22T18:17:00Z"
+    },
+    {
+    "title": "WalkStars",
+    "id": "walkstars",
+    "image": "/static/api/images/walkstars.png",
+    "author": "Avery Wagar",
+    "published": "2017-03-21T18:17:00Z"
+    },
+    {
+    "title": "Boa: Wi-Fi Pentesting Toolkit",
+    "id": "boa",
+    "image": "",
+    "author": "Avery Wagar",
+    "published": "2017-06-22T18:17:00Z"
+    },
+    {
+    "title": "AreWeSet.com",
+    "id": "areweset",
+    "image": "",
+    "author": "Avery Wagar",
+    "published": "2018-07-21T18:17:00Z"
+    },
+    {
+    "title": "EduReality: A VR Curriculum",
+    "id": "edureality",
+    "image": "",
+    "author": "Avery Wagar",
+    "published": "2017-09-6T18:17:00Z"
+    },
+    {
+    "title": "Meal Merge",
+    "id": "mealmerge",
+    "image": "",
+    "author": "Avery Wagar",
+    "published": "2018-06-10T18:17:00Z"
+    },
+    {
+    "title": "Droptimus Prime",
+    "id": "dp",
+    "image": "",
+    "author": "Avery Wagar",
+    "published": "2018-07-21T18:17:00Z"
+    },
+    {
+    "title": "AstroDash",
+    "id": "astrodash",
+    "image": "",
+    "author": "Avery Wagar",
+    "published": "2017-06-22T18:17:00Z"
     }
   ]
 }

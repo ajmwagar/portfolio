@@ -108,3 +108,69 @@ export default {
   }
 }
 </script>
+
+<style>
+
+p {
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2vw;
+}
+h2 {
+  font-weight: bold;
+  font-size: 1.75vw;
+}
+h3 {
+  font-weight: bold;
+  font-size: 1.5vw;
+}
+
+/*blockquote {
+/*  background: #f9f9f9;
+/*  border-left: 10px solid #ccc;
+/*  margin: 1.5em 10px;
+/*  padding: 0.5em 10px;
+/*  quotes: "\201C""\201D""\2018""\2019";
+/*}
+/*blockquote:before {
+/*  color: #ccc;
+/*  content: open-quote;
+/*  font-size: 4em;
+/*  line-height: 0.1em;
+/*  margin-right: 0.25em;
+/*  vertical-align: -0.4em;
+/*}
+/*blockquote p {
+/*  display: inline;
+/*} */
+    pre {
+        font-family: "Courier 10 Pitch", Courier, monospace;
+        font-size: 95%;
+        line-height: 140%;
+        white-space: pre;
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+        white-space: -o-pre-wrap;
+    }       
+    
+    code {
+        font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+        font-size: 95%;
+        line-height: 140%;
+        white-space: pre;
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+        white-space: -o-pre-wrap;
+        background: #faf8f0;
+    }
+    
+    code p {
+        display: block;
+        padding: 0.5em 1em;
+        border: 1px solid #bebab0;
+    }
+</style>

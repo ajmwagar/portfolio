@@ -16,8 +16,7 @@
       <section class="post__body rte" v-html="previewText"></section>
 
       <footer class="post__footer">
-        <vue-disqus v-if="commentsReady" shortname="vue-blog-demo"
-          :key="post" :identifier="post" :url="`https://vue-blog-demo.netlify.com/read/${post}`"/>
+        <vue-disqus v-if="commentsReady" shortname="averywagar.com" :key="post" :identifier="post" :url="`https://averywagar.com/project/${post}`"/>
       </footer>
     </article>
   </transition>
@@ -57,7 +56,7 @@ export default {
     tables: true,
     breaks: true,
     pedantic: false,
-    sanitize: true,
+    sanitize: false,
     smartLists: true,
     smartypants: false
   });

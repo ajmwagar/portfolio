@@ -61,7 +61,7 @@ h1 {
   font-size: 3vh;
   word-wrap: break-word;
   max-width: 30ww;
-  width: 30vw;
+  width: 40vw;
   line-height: 4vh;
   margin-bottom: 15vh;
 

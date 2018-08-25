@@ -1,0 +1,14 @@
+
+{
+  "results": [{
+    "id": "walkstars",
+    "title": "WalkStars",
+    "content": "",
+    "image": "/static/api/images/walkstars.png",
+    "meta": {
+      "description": "UX Designer",
+      "published": "2017-07-28T18:31:01Z",
+      "author": "Avery Wagar"
+    }
+  }]
+}
