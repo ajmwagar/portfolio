@@ -13,11 +13,11 @@
         <blockquote class="post__subtitle">{{ description }}</blockquote>
       </header>
 
-      <section class="post__body rte" v-html="previewText"></section>
+      <pre><section class="post__body rte marked" v-html="previewText"></section></pre>
 
       <footer class="post__footer">
-        <vue-disqus v-if="commentsReady" shortname="vue-blog-demo"
-          :key="post" :identifier="post" :url="`https://vue-blog-demo.netlify.com/read/${post}`"/>
+        <vue-disqus v-if="commentsReady" shortname="averywagar"
+          :key="post" :identifier="post" :url="``"/>
       </footer>
     </article>
   </transition>
@@ -56,10 +56,10 @@ export default {
     gfm: true,
     tables: true,
     breaks: true,
-    pedantic: false,
+    pedantic: true,
     sanitize: false,
     smartLists: true,
-    smartypants: false
+    smartypants: true 
   });
   return marked(this.content)
  }
