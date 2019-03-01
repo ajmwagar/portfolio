@@ -113,10 +113,19 @@ export default {
 </script>
 
 <style>
-svg{
-  height: 5vh;
-  width: 5vh;
+@media only screen and (min-width: 800px) {
+  svg{
+    height: 5vh;
+    width: 5vh;
 
+  }
+}
+@media only screen and (max-width: 799px) {
+  svg{
+    height: 10vw;
+    width: 10vw;
+
+  }
 }
 
 a :hover {
