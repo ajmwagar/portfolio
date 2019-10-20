@@ -1,6 +1,6 @@
 # My Portfolio
 
-
+Old website, please see [ajmwagar/blog](https://github.com/ajmwagar/blog) for an up-to-date repo of https://averywagar.com
 
 ## Build Setup
 
